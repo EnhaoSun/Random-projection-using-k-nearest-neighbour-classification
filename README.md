@@ -30,4 +30,4 @@ run.sh - script to compile and run the program with the following options:
 * ./run.sh compile : Compiles the source. (optional)
 * ./run.sh q1 <m> <dataset vector>: Shows the plot asked in Problem 1(a).
 * ./run.sh q1 <k> <m> <dataset vector> <dataset label> <test vector> <test label> :
-k-nearest neighbour classification with reduced dimensions as asked in Problem 4. Re- member the output should be as specified below.
+k-nearest neighbour classification with reduced dimensions as asked in Problem 2.
