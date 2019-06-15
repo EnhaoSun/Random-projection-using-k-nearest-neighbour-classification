@@ -23,10 +23,11 @@ a) Plot a histogram of these ratios. While plotting ignore the point pairs with 
 ## Problem 2: (Answer in /source/q2)
 Build a k-nearest neighbour classifier as described above. Reduce the dimensionality of vectors in both dataset_vector.csv and test_vector.csv using random projection with m = 100. Run the classifier using these reduced dimensional representations, i.e., predict the classes for the m-dimensional vectors using the k-nearest neighbours found among m-dimensional dataset vectors.
 
-
+## Code
 source - contains all the source files
 
-run.sh - script to compile and run the program with the following options: ∗ ./run.sh compile : Compiles the source. (optional)
-∗ ./run.sh q1 <m> <dataset vector>: Shows the plot asked in Problem 1(a).
-∗ ./run.sh q1 <k> <m> <dataset vector> <dataset label> <test vector> <test label> :
+run.sh - script to compile and run the program with the following options: 
+* ./run.sh compile : Compiles the source. (optional)
+* ./run.sh q1 <m> <dataset vector>: Shows the plot asked in Problem 1(a).
+* ./run.sh q1 <k> <m> <dataset vector> <dataset label> <test vector> <test label> :
 k-nearest neighbour classification with reduced dimensions as asked in Problem 4. Re- member the output should be as specified below.
