@@ -21,7 +21,7 @@ For each pair of vectors u,v in **dataset_vector.csv** and their reduced dimensi
 a) Plot a histogram of these ratios. While plotting ignore the point pairs with near zero distances. x-axis of the histogram should have the ratio values, and y-axis should denote how many times that appeared — this is standard histogram.
 
 ## Problem 2: (Answer in /source/q2)
-Build a k-nearest neighbour classifier as described above. Reduce the dimensionality of vectors in both dataset_vector.csv and test_vector.csv using random projection with m = 100. Run the classifier using these reduced dimensional representations, i.e., predict the classes for the m-dimensional vectors using the k-nearest neighbours found among m-dimensional dataset vectors.
+Build a k-nearest neighbour classifier as described above. Reduce the dimensionality of vectors in both **dataset_vector.csv** and **test_vector.csv** using random projection with m = 100. Run the classifier using these reduced dimensional representations, i.e., predict the classes for the m-dimensional vectors using the k-nearest neighbours found among m-dimensional dataset vectors. Use the **evaluate.py** to get the prediction error from predicted_label.csv; Prediction error is the percentage of misclassified test instances. On the dataset provided, with k = 1 it should not take longer than 3.5 seconds to execute and should have prediction error at most 30%. With increasing k = 10, 20 the execution time should remain almost the same but the prediction error should decrease to 25% and 22% respectively.
 
 ## Code
 source - contains all the source files
@@ -29,5 +29,5 @@ source - contains all the source files
 run.sh - script to compile and run the program with the following options: 
 * ./run.sh compile : Compiles the source. (optional)
 * ./run.sh q1 <m> <dataset vector>: Shows the plot asked in Problem 1(a).
-* ./run.sh q1 <k> <m> <dataset vector> <dataset label> <test vector> <test label> :
+* ./run.sh q2 <k> <m> <dataset vector> <dataset label> <test vector> <test label> :
 k-nearest neighbour classification with reduced dimensions as asked in Problem 2.
