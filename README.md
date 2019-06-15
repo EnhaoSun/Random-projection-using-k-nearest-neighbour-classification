@@ -1,6 +1,6 @@
 # Random projection using k-nearest neighbour classification
 
-P.S This is a coursework about data science: dimension reduction. I did this in a MSc course Nov.18
+P.S This is a coursework about data science: dimension reduction. I did this in a MSc course Nov.2018
 
 ## Problem Description
 Given a set of labeled examples, a k-nearest neighbour classifier predicts the label of a test data point x in the following way: It first finds the k-nearest neighbours of x in the dataset using suitable distance metric, and predicts the label to be the majority of the labels among k-nearest neighbours; ties are broken arbitrarily. The nearest neighbours of a test data point x are obtained by simply computing the Euclidean distances from x to all points in the dataset. [More about KNN]( http://www.inf.ed.ac.uk/teaching/courses/iaml/2011/slides/knn.pdf)
